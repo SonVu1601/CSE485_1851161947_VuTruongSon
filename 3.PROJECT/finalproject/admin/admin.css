@@ -1,3 +1,5 @@
+
+/* CSS */
 .header{
     background-color: blueviolet;
     height: 110px;
@@ -19,12 +21,129 @@
 }
 .header .user-info span{
     margin-left: 180px;
+    
+    color: yellow;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.header .user-info a {
+    text-decoration: none;
+}
+.header .user-info span:hover{
+    color: darkblue;
 }
 .header .logout-btn {
 	color: red;
     text-decoration: none;
     float: right;
 }
-h1{
-    text-align: center;
+
+/* welcome */
+.container {
+	width: 95%;
+	margin: 20px auto 50px;
+    border: 3px solid blueviolet;
+    border-radius: 10px;
+}
+
+.container.dashboard h1 {
+	text-align: center;
+	margin: 25px;
+}
+.container.dashboard .stats a {
+	display: inline-block;
+	padding: 30px;
+	margin: 5px;
+	width: 45%;
+	text-align: center;
+	border-radius: 15px;
+    border: 2px solid #BFBCB3;
+    text-decoration: none;
+}
+.container.dashboard .stats a.first {
+	margin-left: 25px;
+}
+
+.container.dashboard .stats a:hover {
+	cursor: pointer;
+	background-color: #E1E1E1;
+}
+
+.container.dashboard .buttons {
+	margin-left: 15px;
+}
+
+.container.dashboard .buttons a {
+	display: inline-block;
+	margin: 10px;
+	text-decoration: none;
+	color: #444;
+	padding: 10px 25px;
+	border: none;
+	background-color: #0E7D92;
+	color: white;
+}
+/* post */
+.action{
+    margin: 30px;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 35%;
+    height: 360px;
+    
+   
+    
+}
+.action input{
+    width: 75%;
+    margin:10px;
+}
+.action form button{
+    margin-left: 35%;
+}
+/* table */
+.table-div {
+	width: 55%;
+    float: right;
+    margin: 20px;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+.table-div table th{
+    border: 1px black solid;
+}
+.table-div table td{
+    border: 1px black solid;
+    margin-top: 5px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #721c24;
+}
+table tbody{
+    border: 1px solid black;
+}
+.all{
+    display:flex ;
+    width: 100%;
+}
+.table-div .edit{
+    background: #004220;
+}
+.table-div .delete{
+    background: #F70E1A;
+}
+.table-div a.fa{
+    color:white;
+    padding: 3px;
+}
+div .check #abc1{
+    width:30px;
+    
+}
+div .check #abc2{
+    width:30px;
+    
 }
