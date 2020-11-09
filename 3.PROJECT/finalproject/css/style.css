@@ -32,6 +32,10 @@ body {
 ol, ul {
 	list-style: none;
 }
+p {
+  color: red;
+  text-align: center;
+}
 blockquote, q {
 	quotes: none;
 }
