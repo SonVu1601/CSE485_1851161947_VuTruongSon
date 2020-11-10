@@ -1,0 +1,10 @@
+<?php require('top.php'); ?>
+<div class="container dashboard">
+    <h1>Welcome Manager User Post</h1>
+    <div class="stats">
+
+    </div>
+    <br><br><br>
+    
+</div>
+<?php require('bot.php'); ?>
