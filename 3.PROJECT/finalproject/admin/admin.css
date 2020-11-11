@@ -1,149 +1,281 @@
-
 /* CSS */
-.header{
+.header {
     background-color: blueviolet;
-    height: 110px;
+    height: 120px;
     padding: 15px 25px;
 }
-.logo{
+
+.logo {
     float: left;
     width: 50%;
 }
+
 .header .user-info {
-	width: 20%;
-	margin-top: 10px;
+    width: 20%;
+    margin-top: 10px;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    
+
     color: aliceblue;
-    
+
 }
-.header .user-info span{
+
+.header .user-info span {
     margin-left: 180px;
-    
+
     color: yellow;
     border: 2px solid black;
     border-radius: 10px;
     font-size: 20px;
 }
+
 .header .user-info a {
     text-decoration: none;
 }
-.header .user-info span:hover{
+
+.header .user-info span:hover {
     color: darkblue;
 }
+
 .header .logout-btn {
-	color: red;
+    color: red;
     text-decoration: none;
     float: right;
 }
 
 /* welcome */
 .container {
-	width: 95%;
-	margin: 20px auto 50px;
-    border: 3px solid blueviolet;
+    width: 95%;
+    margin: 40px auto 50px;
+    border: 3px solid rgb(22, 20, 20);
     border-radius: 10px;
+    background: #3dd633;
+    height: 600px;
 }
 
 .container.dashboard h1 {
-	text-align: center;
-	margin: 25px;
+    text-align: center;
+    margin: 25px;
 }
+
 .container.dashboard .stats a {
-	display: inline-block;
-	padding: 30px;
-	margin: 5px;
-	width: 45%;
-	text-align: center;
-	border-radius: 15px;
-    border: 2px solid #BFBCB3;
+    display: inline-block;
+    padding: 30px;
+    margin: 5px;
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid  rgb(22, 20, 20);
     text-decoration: none;
+    color:black;
+    font-size: 22px;
 }
+
 .container.dashboard .stats a.first {
-	margin-left: 25px;
+    margin-left: 25px;
 }
 
 .container.dashboard .stats a:hover {
-	cursor: pointer;
-	background-color: #E1E1E1;
+    cursor: pointer;
+    background-color: rgba(77, 77, 170, 0.801);
 }
 
 .container.dashboard .buttons {
-	margin-left: 15px;
+    margin-left: 15px;
 }
 
 .container.dashboard .buttons a {
-	display: inline-block;
-	margin: 10px;
-	text-decoration: none;
-	color: #444;
-	padding: 10px 25px;
-	border: none;
-	background-color: #0E7D92;
-	color: white;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #444;
+    padding: 10px 25px;
+    border: none;
+    background-color: #0E7D92;
+    color: white;
 }
+
 /* post */
-.action{
+.action {
     margin: 30px;
     border: 2px black solid;
     border-radius: 10px;
     width: 35%;
     height: 360px;
+    background: wheat;
     
-   
-    
+
+
 }
-.action input{
+.container .action1{
+    margin: 30px;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 60%;
+    height: 400px;
+    background: wheat;
+    margin-left: 20%;
+
+}
+.action1 input {
     width: 75%;
-    margin:10px;
+    margin: 10px;
 }
-.action form button{
+
+.action input {
+    width: 75%;
+    margin: 10px;
+}
+
+.action form button {
     margin-left: 35%;
 }
+
 /* table */
 .table-div {
-	width: 55%;
+    width: 55%;
     float: right;
     margin: 20px;
     border: 2px black solid;
     border-radius: 10px;
     padding: 5px;
+    background: wheat;
 }
-.table-div table th{
+
+.table-div table th {
     border: 1px black solid;
 }
-.table-div table td{
+
+.table-div table td {
     border: 1px black solid;
     margin-top: 5px;
 }
+
 .table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #721c24;
 }
-table tbody{
-    border: 1px solid black;
-}
-.all{
-    display:flex ;
+
+
+
+.all {
+    display: flex;
     width: 100%;
+    background: rgba(80, 80, 150, 0.733);
+    height: 600px;
 }
-.table-div .edit{
+.table-div{
+    max-height: 400px;
+}
+
+
+.table-div .edit {
     background: #004220;
 }
-.table-div .delete{
+
+.table-div .delete {
     background: #F70E1A;
 }
-.table-div a.fa{
-    color:white;
+
+.table-div a.fa {
+    color: white;
     padding: 3px;
 }
-div .check #abc1{
-    width:30px;
+
+div .check #abc1 {
+    width: 30px;
+
+}
+
+div .check #abc2 {
+    width: 30px;
+
+}
+
+/* POST */
+.wrapperpost {
+    height: 700px;
+    display: flex;
+    width: 100%;
+
+}
+
+.wrapperpost .leftsile {
+    flex: 2;
+    height: 100%;
+    background: blueviolet;
+
+}
+
+.wrapperpost .rightsile {
+    flex: 8;
+    height: 100%;
+    padding: 40px 100px 100px;
+    overflow-y:scroll;
+    background: rgb(199, 199, 236);
+
+}
+
+.leftsile h3 {
+    font-size: 1.75rem;
+    background: brown;
+    border-radius: 15px;
+    text-align: center;
+    font-family: inherit;
+    color: wheat;
+    height: 40px;
+    width: 280px;
+    margin-left: 10px;
+
+}
+
+.leftsile ul li a {
+
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    display: block;
+    font-size: 23px;
+    border-bottom: 1px solid #004044;
+}
+
+.leftsile ul {
+    list-style: none;
+    padding: 5px;
     
 }
-div .check #abc2{
-    width:30px;
-    
+
+.leftsile ul li a:hover {
+    background: #0348c9;
+}
+/* Right */
+.content .title{
+    font-size: 50px;
+    color:blue;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+th,td{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid blue;
+}
+.edit{
+    color: green;
+}
+.delete{
+    color: red;
+
+}
+.publish{
+    color: blue;
+}
+form div{
+    margin-bottom: 15px;
 }
